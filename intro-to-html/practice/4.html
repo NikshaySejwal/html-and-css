@@ -1,0 +1,128 @@
+<!-- box model practice -->
+<!-- css -->
+<style>
+    .back{
+        padding-top:5px ;
+        padding-bottom: 5px;
+        margin-right: 5;
+        cursor: pointer;
+    }
+    .next{
+        padding-top: 5;
+        padding-bottom: 5;
+        margin-left: 5;
+        cursor: pointer;
+    }
+
+    .stretch{
+        background-color: green;
+        color:white;
+        border: none;
+        padding-left: 10;
+        padding-right: 10;
+        padding-top: 10;
+        padding-bottom: 10;
+        cursor: pointer;
+        transition:padding-top 1s ,padding-right 1s,padding-bottom 1s, padding-left 1s;
+    }
+    .stretch:hover{
+        padding-top: 30;
+        padding-right: 30;
+        padding-bottom: 30;
+        padding-left: 30;
+    }
+
+    .click{
+        background-color: green;
+        color: white;
+        border: none;
+        padding-left: 15;
+        padding-right: 15;
+        padding-top: 8;
+        padding-bottom: 8;
+        cursor: pointer;
+        box-shadow: 5px 5px 5px rgba(0,0,0,.3);
+        transition:padding-left 0.5s ,padding-right 0.5s , padding-top 0.5s padding-bottom 0.5s ;
+        margin-right: 40;
+    }
+    .click:active{
+        margin-top: 3px;
+        margin-left: 3px;
+        box-shadow: none;
+    }
+    .one{
+        background-color: green;
+        color: white;
+        border: none;
+        padding-left: 10;
+        padding-right: 10;
+        padding-top: 10;
+        padding-bottom: 10;
+        margin-left: 10;
+        margin-right:10;
+        transition: padding-left 0.3s,padding-right 0.3s, margin-right 0.3s, margin-left 0.3s;
+    }
+    .one:hover{
+        padding-left: 15;
+        padding-right: 15;
+        margin-right:5 ;
+        margin-left: 5;
+    }
+    .two{
+        background-color: green;
+        color: white;
+        border: none;
+        padding-left: 10;
+        padding-right: 10;
+        padding-top: 10;
+        padding-bottom: 10;
+        margin-left: 10;
+        margin-right:10;
+        transition: padding-left 0.3s,padding-right 0.3s, margin-right 0.3s, margin-left 0.3s;
+    }
+    .two:hover{
+        padding-left: 15;
+        padding-right: 15;
+        margin-right:5 ;
+        margin-left: 5;
+    }
+    .three{
+        background-color: green;
+        color: white;
+        border: none;
+        padding-left: 10;
+        padding-right: 10;
+        padding-top: 10;
+        padding-bottom: 10;
+        margin-left: 10;
+        margin-right:10;
+        transition: padding-left 0.3s,padding-right 0.3s, margin-right 0.3s, margin-left 0.3s;
+    }
+    .three:hover{
+        padding-left: 15;
+        padding-right: 15;
+        margin-right:5 ;
+        margin-left: 5;
+    }
+</style>
+
+
+
+
+<!-- 4h -->
+<button class="back">Back</button> <a href="">1</a>
+ <a href="">2</a> 
+ <a href="">3</a>
+ <button class="next">next</button>
+
+<br>
+ <!-- stretch -->
+  <button class="stretch">Strech</button>
+
+  <!-- 3d click -->
+   <button class="click">shadow</button>
+
+<!-- margin and padding togather -->
+ <button class="one">one</button>
+ <button class="two">two</button>
+ <button class="three">three</button>
